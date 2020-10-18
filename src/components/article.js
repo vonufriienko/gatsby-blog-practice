@@ -3,7 +3,7 @@ import React from "react"
   const Article = ({
     content: {
       title,
-      text,
+      text: { text },
       banner: {
         file: {
           url
